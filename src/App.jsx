@@ -1,6 +1,7 @@
 import React,{ useState } from 'react';
 import{Routes,Route,BrowserRouter} from "react-router-dom";
 import HomePage from "./pages/Home"
+import EditPage from "./pages/edit"
 import "bootstrap/dist/css/bootstrap.min.css";
 import './App.css';
 
@@ -11,6 +12,7 @@ function App() {
       
         <Routes>
           <Route path="/" element={<HomePage/>}/>
+          <Route path="/Edit/" element={<EditPage/>}/>
         </Routes>
     </div>
   );
