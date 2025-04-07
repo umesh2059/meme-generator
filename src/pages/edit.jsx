@@ -15,12 +15,12 @@ const  EditPage=()=>{
                 Array(count)
                 .fill(0)
                 .map((e,i)=>(
-                     <text key={i}/>))
+                <Text key={i}/>))
             }
         </div>
         <button onClick={AddText} style={{backgroundColor:"green",
             margin:"30px",
-            cursor:"pointer"}}>Add text</button>
+            cursor:"pointer"}}>Add Text</button>
         </div>
     );
 };
