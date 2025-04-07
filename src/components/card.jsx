@@ -5,7 +5,7 @@ import { useNavigate } from "react-router-dom";
 const MemeCard=(props)=>{
   const navigate=useNavigate();
     return(
-        <Card style={{ width: '18rem'  ,margin:"22px" }}>
+        <Card style={{ width: '18rem'  ,margin:"30px"}}>
         <Card.Img variant="top" src={props.img} />
         <Card.Body>
           <Card.Title>{props.title}</Card.Title>
