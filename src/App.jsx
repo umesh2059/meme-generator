@@ -3,6 +3,7 @@ import{Routes,Route,BrowserRouter} from "react-router-dom";
 import HomePage from "./pages/Home"
 import EditPage from "./pages/edit"
 import "bootstrap/dist/css/bootstrap.min.css";
+import './index.css';
 import './App.css';
 
 function App() {
