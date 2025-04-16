@@ -8,7 +8,7 @@ const  EditPage=()=>{
         setCount(count + 1);
     }
     return(
-        <div>
+        <div className="border-2 border-e-red-700">
         <div>
             <img src={params.get("url")}width="340px"/>
             {
